@@ -7,7 +7,7 @@ INSERT INTO practice_dim_equipment(
   commissioning_date,status,
   has_video_recorder,has_navigation
   ) 
-            VALUES(200,2,2,'Самосвал МоАЗ-7529','INV-TRK-200','МоАЗ','7529',2025,'2025-03-15','active',true,true);
+VALUES(200,2,2,'Самосвал МоАЗ-7529','INV-TRK-200','МоАЗ','7529',2025,'2025-03-15','active',true,true);
 SELECT * FROM practice_dim_equipment WHERE equipment_id=200;
 --Задание 2. Массовая вставка операторов
 INSERT INTO practice_dim_operator (
